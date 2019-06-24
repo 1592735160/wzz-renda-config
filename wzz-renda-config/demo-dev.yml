@@ -7,11 +7,11 @@
 #     web:
 #       exposure:
 #         include: "*"
-path: iii
+# path: iii
 server:
   port: 8200
-zuul:
-  routes:
-    api-a:
-      path: /api-member/**
-      service-id: service-student
+# zuul:
+#   routes:
+#     api-a:
+#       path: /api-member/**
+#       service-id: service-student
