@@ -12,3 +12,12 @@ eureka:
     lease-renewal-interval-in-seconds: 1
     # Eureka服务端收到最后一次心跳之后等待的时间上限，单位：秒，超过则剔除
     lease-expiration-duration-in-seconds: 2
+
+# springcloud 的 feign 默认支持 ribbon
+ribbon:
+  # 指的是建立连接所用的时间，适用于网络状况正常的情况下，两端连接所用的时间
+  ReadTimeout: 5000
+  # 指的是建立连接后从服务器读取到可用资源所用的时间
+  ConnectTimeout: 5000
+  eureka:
+    enabled: true
