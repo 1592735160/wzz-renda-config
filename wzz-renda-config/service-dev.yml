@@ -1,4 +1,5 @@
 # spring连接数据库驱动
+spring:
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/student?serverTimezone=UTC&useSSL=false
