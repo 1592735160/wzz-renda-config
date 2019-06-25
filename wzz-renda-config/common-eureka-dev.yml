@@ -12,4 +12,3 @@ eureka:
     lease-renewal-interval-in-seconds: 1
     # Eureka服务端收到最后一次心跳之后等待的时间上限，单位：秒，超过则剔除
     lease-expiration-duration-in-seconds: 2
-demo2: eureka
